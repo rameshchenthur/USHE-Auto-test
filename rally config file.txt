@@ -1,0 +1,11 @@
+set HTTP_PROXY=http://admin:Pa55word@localhost:1540
+
+set HTTP_PROXY=localhost:1540
+
+set HTTP_PROXY=3.3.176.179:22
+
+set HTTP_PROXY=64.210.197.20:80
+
+rally2_qc_connector.exe  qc_config.xml  -1
+
+rally2_qc_connector.exe  qc_config_test.xml  -1
